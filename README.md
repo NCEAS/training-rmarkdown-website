@@ -1,4 +1,4 @@
-# Tutorial on how to make website using R Markdown
+# Tutorial on how to make a website using R Markdown
 
 
 This simple tutorial aims at helping synthesis working groups to start a simple Rmarkdown based website to share information about their work.
