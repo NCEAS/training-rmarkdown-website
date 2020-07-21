@@ -65,7 +65,7 @@ knitr::include_graphics(here("img", "rmd_sample.png"))
 ```
 
 
-Once your page is all filled up, go into the `_site.yml` file and add the following underneath the other pages:
+Once your page is all filled up, knit your page's R Markdown file to save it as an html file.  Then go into the `_site.yml` file and add the following underneath the other pages:
 
   - `text: "<page name to be displayed>"`
   - `href: <name of rmd file you just made>.html`
@@ -82,6 +82,9 @@ Then if we build our website again, we can see our new page!
 ```{r, out.width="75%"}
 knitr::include_graphics(here("img", "new_page.png"))
 ```
+
+
+If you make changes to your page's R Markdown file, you can simply knit again to save the html. You do not need to rebuild the site again unless you make changes to the `_site.yml` 
 
 ## Additional Features
 
@@ -108,7 +111,7 @@ You can see more bootswatch themes [here](https://bootswatch.com/).
 
 ### Add a footer
 
-If we want to add a footer to the website, make an HTML (or RHTML) document with the footer, like so:
+If we want to add a footer to the website, make an HTML (or R HTML using File -> New File -> R HTML) document with the footer, like so:
 
 ```{r}
 include_graphics(here("img", "footer_sample.png"))
