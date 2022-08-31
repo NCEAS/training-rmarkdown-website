@@ -1,9 +1,12 @@
-# Tutorial on how to make a website using R Markdown
+# Note: This Tutorial is Deprecated!
 
+This tutorial has been superseded by a [new tutorial on how to build a website with Quarto](https://nceas.github.io/scicomptasks/tutorials.html). The new tutorial is embedded within the Scientific Computing Support team's website (also built with Quarto!).
 
-This simple tutorial aims at helping synthesis working groups to start a simple Rmarkdown based website to share information about their work.
+[Quarto](https://quarto.org/) is a new (as of Summer 2022) open-source publishing system that lets RStudio users easily create websites and books with markdown syntax in something that is very close to a "what you see is what you get" (WYSWYG) editor. We recommend you explore our tutorial linked above and Quarto genererally because it is fun and the learning curve is relatively accessible.
 
-For more information on this topic, see [this chapter](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) from the _R Markdown: The Definitive Guide_ .
+# Tutorial on Building a Website with R Markdown
+
+This tutorial aims to help synthesis working groups to start a basic Rmarkdown based website to share information about their work. For more information on this topic, see [this chapter](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) from the _R Markdown: The Definitive Guide_ .
 
 
 <br>
